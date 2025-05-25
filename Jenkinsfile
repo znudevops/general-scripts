@@ -18,7 +18,7 @@ pipeline{
         }
         stage('deploy-QA'){
             steps{
-                sh 'ssh ec2-user@12.0.0.84 aws s3 cp s3://test-bucket-20-05/webapp.war /opt/tomcat/latest/webapps/testapp.war'
+                sh 'ssh ec2-user@server-ip aws s3 cp s3://test-bucket-20-05/webapp.war /opt/tomcat/latest/webapps/testapp.war'
             }
         }
     }
