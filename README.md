@@ -1,1 +1,1 @@
-this is simple linux based tomcat application
+this is a gitgub repo, It has the general scripts. 
