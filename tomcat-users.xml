@@ -10,5 +10,6 @@
   <role rolename="manger-script"/>
   <!-- Users -->
   <user username="admin" password="admin123" roles="manger-script"/>
+  <user username="jenkins" password="jenkins123" roles="manager-script"/>
 
 </tomcat-users>
