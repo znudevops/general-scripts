@@ -1,3 +1,4 @@
+#install tomcat in Amazon Linux 2023 server
 #!/bin/bash
 
 # Update system packages
